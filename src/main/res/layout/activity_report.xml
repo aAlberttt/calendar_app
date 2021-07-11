@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- author: Hao Chen
+     since: 22 May. 2019
+!-->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/calendar_area_background"
+    android:clickable="false"
+    tools:context=".HelpActivity">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:itemTextColor="@drawable/bottom_nav"
+        app:itemIconTint="@drawable/bottom_nav"
+        app:menu="@menu/bottom_nav_menu" />
+
+    <TextView
+        android:id="@+id/tv0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/report_graph_1"
+        android:textColor="@color/basic_color"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/marked_days"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/place_holder"
+        android:textColor="@color/colorPrimary"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv0" />
+
+    <TextView
+        android:id="@+id/header0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/report_graph_2"
+        android:textColor="@color/basic_color"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/marked_days"
+        app:layout_constraintTop_toBottomOf="@+id/tv0" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/report_graph_3"
+        android:textColor="@color/basic_color"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/marked_days" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/size_unit"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/workout_activity"
+        android:textColor="@color/workout_level_3"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv2" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/size_unit"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/reading_activity"
+        android:textColor="@color/reading_level_3"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv3" />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/size_unit"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/coding_activity"
+        android:textColor="@color/holder_1_level_3"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv4" />
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/size_unit"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/social_activity"
+        android:textColor="@color/holder_2_level_2"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv5" />
+
+    <TextView
+        android:id="@+id/workout_figure"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/size_unit"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="128dp"
+        android:text="@string/place_holder"
+        android:textColor="@color/basic_color"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv2" />
+
+    <TextView
+        android:id="@+id/reading_figure"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/size_unit"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="128dp"
+        android:text="@string/place_holder"
+        android:textColor="@color/basic_color"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/workout_figure" />
+
+    <TextView
+        android:id="@+id/holder_1_figure"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/size_unit"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="128dp"
+        android:text="@string/place_holder"
+        android:textColor="@color/basic_color"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reading_figure" />
+
+    <TextView
+        android:id="@+id/holder_2_figure"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/size_unit"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="128dp"
+        android:text="@string/place_holder"
+        android:textColor="@color/basic_color"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/holder_1_figure" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

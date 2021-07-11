@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- author: Zhongrui Chen
+     since: 11 May 2019
+!-->
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- top left -->
+    <item
+        android:top="0dp"
+        android:left="0dp">
+        <shape android:shape="rectangle">
+            <size
+                android:height="@dimen/half_size_unit"
+                android:width="@dimen/half_size_unit" />
+            <corners android:radius="@dimen/radius_size" />
+
+        </shape>
+    </item>
+
+    <!-- top right -->
+    <item
+        android:top="0dp"
+        android:left="@dimen/half_size_unit">
+        <shape android:shape="rectangle">
+            <corners
+                android:topRightRadius="@dimen/radius_size"
+                android:bottomLeftRadius="@dimen/radius_size"
+                android:bottomRightRadius="@dimen/radius_size" />
+            <size
+                android:height="@dimen/half_size_unit"
+                android:width="@dimen/half_size_unit" />
+
+        </shape>
+    </item>
+
+    <!-- bottom left -->
+    <item
+        android:top="@dimen/half_size_unit"
+        android:left="0dp">
+        <shape android:shape="rectangle">
+            <corners
+                android:bottomLeftRadius="@dimen/radius_size"
+                android:bottomRightRadius="@dimen/radius_size" />
+            <size
+                android:height="@dimen/half_size_unit"
+                android:width="@dimen/half_size_unit" />
+
+        </shape>
+    </item>
+
+    <!-- bottom right -->
+    <item
+        android:top="@dimen/half_size_unit"
+        android:left="@dimen/half_size_unit">
+        <shape android:shape="rectangle">
+            <corners android:bottomRightRadius="@dimen/radius_size" />
+            <size
+                android:height="@dimen/half_size_unit"
+                android:width="@dimen/half_size_unit" />
+
+        </shape>
+    </item>
+
+    <!-- border control item -->
+    <item>
+        <shape android:shape="rectangle">
+            <size
+                android:height="@dimen/size_unit"
+                android:width="@dimen/size_unit" />
+            <corners android:radius="@dimen/radius_size" />
+
+        </shape>
+    </item>
+
+</layer-list>

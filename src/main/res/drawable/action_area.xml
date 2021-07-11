@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- author: Zhongrui Chen
+     since: 11 May 2019
+!-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners
+        android:topLeftRadius="@dimen/one_third_size_unit"
+        android:topRightRadius="@dimen/one_third_size_unit" />
+    <solid android:color="@color/action_area_background" />
+</shape>

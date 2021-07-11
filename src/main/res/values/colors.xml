@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#000000</color>
+
+    <color name="basic_color">#B6B8C3</color>
+
+    <color name="calendar_area_background">#424242</color>
+    <color name="action_area_background">#E0E0E0</color>
+
+    <!--Workout Activity Colors-->
+    <color name="workout_level_1">#c8e6c9</color>
+    <color name="workout_level_2">#66bb6a</color>
+    <color name="workout_level_3">#388E3C</color>
+    <color name="workout_level_4">#1b5e20</color>
+
+    <!--Reading Activity Colors-->
+    <color name="reading_level_1">#bbdefb</color>
+    <color name="reading_level_2">#42a5f5</color>
+    <color name="reading_level_3">#1976d2</color>
+    <color name="reading_level_4">#0d47a1</color>
+
+    <!--Coding Activity Colors-->
+    <color name="holder_1_level_1">#ffecb3</color>
+    <color name="holder_1_level_2">#ffca28</color>
+    <color name="holder_1_level_3">#ffa000</color>
+    <color name="holder_1_level_4">#ff6f00</color>
+
+    <!--Social Activity Colors-->
+    <color name="holder_2_level_1">#f8bbd0</color>
+    <color name="holder_2_level_2">#ec407a</color>
+    <color name="holder_2_level_3">#c2185b</color>
+    <color name="holder_2_level_4">#880e4f</color>
+
+</resources>

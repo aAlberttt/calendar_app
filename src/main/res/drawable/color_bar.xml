@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- author: Zhongrui Chen
+     since: 11 May 2019
+!-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <size
+        android:height="@dimen/size_unit"
+        android:width="@dimen/double_size_unit" />
+    <corners android:radius="@dimen/radius_size" />
+    <solid android:color="@color/basic_color" />
+    <stroke android:width="0dp" />
+</shape>

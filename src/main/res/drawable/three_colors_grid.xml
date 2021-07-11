@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- author: Zhongrui Chen
+     since: 11 May 2019
+!-->
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- top -->
+    <item>
+        <shape android:shape="rectangle">
+            <size
+                android:height="@dimen/one_third_size_unit"
+                android:width="@dimen/size_unit" />
+            <corners android:radius="@dimen/radius_size" />
+            <solid android:color="#f00" />
+        </shape>
+    </item>
+
+    <!-- medium -->
+    <item android:top="@dimen/one_third_size_unit">
+        <shape android:shape="rectangle">
+            <corners
+                android:bottomLeftRadius="@dimen/radius_size"
+                android:bottomRightRadius="@dimen/radius_size" />
+            <size
+                android:height="@dimen/one_third_size_unit"
+                android:width="@dimen/size_unit" />
+            <solid android:color="@color/colorPrimary" />
+        </shape>
+    </item>
+
+    <!-- bottom -->
+    <item android:top="@dimen/two_third_size_unit">
+        <shape android:shape="rectangle">
+            <corners
+                android:bottomLeftRadius="@dimen/radius_size"
+                android:bottomRightRadius="@dimen/radius_size" />
+            <size
+                android:height="@dimen/one_third_size_unit"
+                android:width="@dimen/size_unit" />
+            <solid android:color="@color/workout_level_2" />
+        </shape>
+    </item>
+
+    <!-- border control item -->
+    <item>
+        <shape android:shape="rectangle">
+            <size
+                android:height="@dimen/size_unit"
+                android:width="@dimen/size_unit" />
+            <corners android:radius="@dimen/radius_size" />
+        </shape>
+    </item>
+</layer-list>

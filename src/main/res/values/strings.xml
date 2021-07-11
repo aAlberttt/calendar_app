@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Non-Contribution Graph</string>
+    <string name="place_holder">HOLDER</string>
+    <string name="workout_activity">WORKOUT</string>
+    <string name="reading_activity">READING</string>
+    <string name="coding_activity">CODING</string>
+    <string name="social_activity">SOCIAL</string>
+
+    <string name="menu_title_calendar">CALENDAR</string>
+    <string name="menu_title_report">REPORT</string>
+    <string name="menu_title_help">HELP</string>
+
+    <string name="report_graph_1">
+        You have marked your life for
+    </string>
+
+    <string name="report_graph_2">
+        days in this month.
+    </string>
+
+    <string name="report_graph_3">
+        Statistics:
+    </string>
+
+    <string name="header_0">
+        What is this app for?
+    </string>
+
+    <string name="header_1">
+        Begin to mark your days!
+    </string>
+
+    <string name="header_2">
+        Check the report!
+    </string>
+
+    <string name="parag_1_line_1">
+        This app is called Non-Contribution Graph, which is inspired by the Contribution Graph used in VCS tools like GitHub.
+
+    </string>
+
+    <string name="parag_1_line_2">
+        But you don\'t contribute on anything over here!
+    </string>
+
+    <string name="parag_1_line_3">
+        It\'s for you to record your daily activities on both frequency and intensity. Click on a grid and use color bars with action buttons
+         to manipulate it!
+    </string>
+
+    <string name="parg_2_line_1">
+        Four kinds of activity are built-in for you.
+        Four different colors are associated with these activities.
+        Different color intensities in a grid indicate different levels of the activity within a day.
+        One intensity level represents a half hour of doing corresponding activity.
+    </string>
+
+    <string name="parg_3">
+        A report is provided for you to check the stats of these activities in this month!
+    </string>
+</resources>

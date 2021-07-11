@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- author: Zhongrui Chen
+     since: 11 May 2019
+!-->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <size
+        android:width="@dimen/size_unit"
+        android:height="@dimen/size_unit" />
+    <corners android:radius="@dimen/radius_size" />
+    <solid android:color="@color/basic_color" />
+</shape>
